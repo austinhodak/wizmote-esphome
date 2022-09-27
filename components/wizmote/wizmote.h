@@ -44,7 +44,7 @@ class WizMoteListener : public esp_now::ESPNowListener {
 
  protected:
   uint32_t last_sequence_ = 0;
-  std::string last_bssid_ = "";
+  uint8_t last_bssid_ = 0;
   Trigger<WizMotePacket> *on_button_ = new Trigger<WizMotePacket>();
 };
 

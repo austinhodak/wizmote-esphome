@@ -5,7 +5,6 @@
 #include "esphome/core/helpers.h"
 
 #include <vector>
-#include <string>
 
 namespace esphome {
 namespace wizmote {
